@@ -1,27 +1,5 @@
 @import url("https://fonts.googleapis.com/css2?family=Fira+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Yantramanav:wght@100;300;400;500;700;900&display=swap");
-.fira-sans-regular {
-  font-family: "Fira Sans", serif;
-  font-weight: 400;
-  font-style: normal;
-}
 
-.fira-sans-medium {
-  font-family: "Fira Sans", serif;
-  font-weight: 500;
-  font-style: normal;
-}
-
-.fira-sans-semibold {
-  font-family: "Fira Sans", serif;
-  font-weight: 600;
-  font-style: normal;
-}
-
-.fira-sans-bold {
-  font-family: "Fira Sans", serif;
-  font-weight: 700;
-  font-style: normal;
-}
 * {
   margin: 0;
   padding: 0;
@@ -66,6 +44,10 @@ body {
   outline: none;
   border: none;
   border-radius: 8px;
+  cursor: pointer;
+}
+.hero-btn:hover {
+  background: #09a15c;
 }
 /* vision section */
 #vision-section {
@@ -76,6 +58,11 @@ body {
   padding: 32px;
   background: #d5e1f5;
   border-radius: 16px;
+  cursor: pointer;
+}
+.vision-card:hover {
+  background: #09a15c;
+  color: #ffffff;
 }
 .vision-heading {
   font-size: 40px;
@@ -83,6 +70,10 @@ body {
   color: #0e0e0e;
   margin-bottom: 24px;
 }
+.vision-card:hover .vision-heading {
+  color: #fcffc1 !important;
+}
+
 .vision-des {
   font-size: 16px;
   font-weight: 400;
@@ -114,16 +105,35 @@ body {
   background: #5490f5;
   outline: none;
   border: none;
+  cursor: pointer;
+}
+.vision-card button:hover {
+  background: #09a15c;
 }
 .vision-cards {
   display: flex;
   gap: 24px;
 }
+.vision-card-2 {
+  background: #c6e4d6;
+}
+.vision-card-2 > button {
+  background: #09a15c;
+}
+.vision-card-3 {
+  background: #f7ebcf;
+}
+.vision-card-3 > button {
+  background: #ffc239;
+}
 .vision-qoute {
-  padding: 48px 24px;
   border: 1px solid gray;
   border-radius: 16px;
   margin-top: 32px;
+  padding-top: 16px;
+  padding-bottom: 48px;
+  padding-left: 24px;
+  padding-right: 24px;
 }
 .vision-qoute > p {
   font-size: 16px;
@@ -132,14 +142,14 @@ body {
   background-repeat: no-repeat;
   background-position: left;
   color: #3e3e3e;
-  margin-bottom: 12px;
-  padding-top: 16px;
+  padding-top: 60px;
 }
 .vision-qoute > h2 {
   font-size: 20px;
   font-weight: 600;
   color: #3e3e3e;
   margin-bottom: 12px;
+  margin-top: 18px;
 }
 .vision-qoute > span {
   font-size: 16px;
@@ -174,16 +184,16 @@ body {
   display: flex;
   gap: 32px;
   background: white;
-  box-shadow: white;
   border-radius: 24px;
   align-items: center;
+  cursor: pointer;
 }
 .recent-card > img {
   width: 408px;
   height: 306px;
   border-radius: 24px;
 }
-.recent-card-right {
+.recent-card-right h1 {
   font-size: 32px;
   font-weight: 700;
   font-family: sans-serif;
@@ -216,6 +226,10 @@ body {
   border-radius: 8px;
   background: #006a50;
   border: none;
+  cursor: pointer;
+}
+.recent-card-right > button:hover {
+  background: #09a15c;
 }
 .recent-card-2 {
   display: flex;
@@ -260,7 +274,12 @@ body {
   padding: 40px;
   border-radius: 16px;
   background: white;
-  border: 1px solid gray;
+  border: 1px solid #dbdbdb;
+  cursor: pointer;
+}
+.donate-card:hover {
+  background: #09a15c;
+  color: #ffffff !important;
 }
 .donate-card > span {
   font-size: 40px;
@@ -268,7 +287,9 @@ body {
   font-family: sans-serif;
   color: #3e3e3e;
 }
-
+.donate-card-2 {
+  background: #c6e4d6;
+}
 /* newsletter section */
 #newsletter-section {
   width: 1280px;
@@ -300,7 +321,8 @@ body {
 }
 #newsletter-section input {
   width: 600px;
-
+  font-size: 16px;
+  font-weight: 400;
   background: #ffffff;
   border-radius: 18px;
   outline: none;
@@ -309,7 +331,7 @@ body {
 }
 #newsletter-section button {
   background: #006a50;
-  padding: 15px 34px;
+  padding: 16px 34px;
   font-size: 18px;
   font-weight: 600;
   color: #ffffff;
@@ -317,5 +339,17 @@ body {
   border-top-right-radius: 18px;
   border-bottom-right-radius: 18px;
   position: relative;
-  right: 30px;
+  right: 17px;
+  cursor: pointer;
+}
+#newsletter-section button:hover {
+  background: #09a15c;
+}
+#newsletter-section span {
+  font-size: 16px;
+  font-weight: 400;
+  font-family: "Fira Sans" sans-serif;
+  color: #6a7972;
+  text-align: center;
+  margin-top: 16px;
 }
