@@ -1,0 +1,270 @@
+@import url("https://fonts.googleapis.com/css2?family=Fira+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Yantramanav:wght@100;300;400;500;700;900&display=swap");
+.fira-sans-regular {
+  font-family: "Fira Sans", serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.fira-sans-medium {
+  font-family: "Fira Sans", serif;
+  font-weight: 500;
+  font-style: normal;
+}
+
+.fira-sans-semibold {
+  font-family: "Fira Sans", serif;
+  font-weight: 600;
+  font-style: normal;
+}
+
+.fira-sans-bold {
+  font-family: "Fira Sans", serif;
+  font-weight: 700;
+  font-style: normal;
+}
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  background: #f5f5f5;
+  font-family: "Fira Sans", serif;
+}
+#hero-section {
+  display: flex;
+  background: #c6e4d6;
+  width: 1280px;
+  margin: 0 auto;
+  padding: 80px 60px;
+  gap: 64px;
+  justify-content: center;
+  align-items: center;
+  border-radius: 24px;
+  margin-bottom: 80px;
+}
+.hero-main {
+  flex: 1;
+}
+.hero-name {
+  font-size: 24px;
+  font-weight: 500;
+  color: #6a7972;
+}
+.hero-heading {
+  font-size: 56px;
+  font-weight: 700;
+  color: #0e0e0e;
+  margin-top: 24px;
+  margin-bottom: 16px;
+}
+.hero-btn {
+  padding: 17px 34px;
+  background: #006a50;
+  color: #fff;
+  font-size: 18px;
+  font-weight: 700;
+  outline: none;
+  border: none;
+  border-radius: 8px;
+}
+/* vision section */
+#vision-section {
+  width: 1280px;
+  margin: 0 auto;
+}
+.vision-card {
+  padding: 32px;
+  background: #d5e1f5;
+  border-radius: 16px;
+}
+.vision-heading {
+  font-size: 40px;
+  font-weight: 700;
+  color: #0e0e0e;
+  margin-bottom: 24px;
+}
+.vision-des {
+  font-size: 16px;
+  font-weight: 400;
+  color: #0e0e0e;
+  margin-bottom: 24px;
+}
+.vision-card img {
+  width: 62;
+  height: 62px;
+}
+.vision-card > h2 {
+  font-size: 20px;
+  font-weight: 700;
+  color: #0e0e0e;
+  margin-bottom: 12px;
+}
+.vision-card > p {
+  font-size: 16px;
+  font-weight: 400;
+  color: #0e0e0e;
+  margin-bottom: 24px;
+}
+.vision-card button {
+  font-size: 16px;
+  font-weight: 600;
+  color: #ffffff;
+  padding: 11px 20px;
+  border-radius: 8px;
+  background: #5490f5;
+  outline: none;
+  border: none;
+}
+.vision-cards {
+  display: flex;
+  gap: 24px;
+}
+.vision-qoute {
+  padding: 48px 24px;
+  border: 1px solid gray;
+  border-radius: 16px;
+  margin-top: 32px;
+}
+.vision-qoute > p {
+  font-size: 16px;
+  font-weight: 400;
+  background-image: url("../images//quote-bg.png");
+  background-repeat: no-repeat;
+  background-position: left;
+  color: #3e3e3e;
+  margin-bottom: 12px;
+  padding-top: 16px;
+}
+.vision-qoute > h2 {
+  font-size: 20px;
+  font-weight: 600;
+  color: #3e3e3e;
+  margin-bottom: 12px;
+}
+.vision-qoute > span {
+  font-size: 16px;
+  font-weight: 400;
+  color: #6e6e6e;
+}
+
+/*  recent section*/
+
+#recent-section {
+  width: 1280px;
+  margin: 0 auto;
+  margin-top: 80px;
+}
+.recent-heading {
+  font-size: 40px;
+  font-weight: 700;
+  font-family: sans-serif;
+  color: #0e0e0e;
+}
+.recent-des {
+  font-size: 16px;
+  font-weight: 400;
+  font-family: sans-serif;
+  color: #6a7972;
+  margin-bottom: 32px;
+  margin-top: 24px;
+}
+.recent-card {
+  padding: 48px;
+  border-radius: 24px;
+  display: flex;
+  gap: 32px;
+  background: white;
+  box-shadow: white;
+  border-radius: 24px;
+  align-items: center;
+}
+.recent-card > img {
+  width: 408px;
+  height: 306px;
+  border-radius: 24px;
+}
+.recent-card-right {
+  font-size: 32px;
+  font-weight: 700;
+  font-family: sans-serif;
+  color: #6a7972;
+  margin-bottom: 12px;
+}
+.recent-card-right > img {
+  width: 134px;
+  height: 40px;
+}
+.recent-card-right > span {
+  font-size: 16px;
+  font-weight: 400;
+  color: #6a7972;
+}
+.recent-card-right > p {
+  font-size: 16px;
+  font-weight: 400;
+  font-family: sans-serif;
+  color: #6a7972;
+  margin-bottom: 32px;
+  margin-top: 16px;
+}
+.recent-card-right > button {
+  font-size: 18px;
+  font-weight: 600;
+  font-family: sans-serif;
+  color: #ffffff;
+  padding: 13px 26px;
+  border-radius: 8px;
+  background: #006a50;
+  border: none;
+}
+.recent-card-2 {
+  display: flex;
+  flex-direction: row-reverse;
+  margin: 24px 0;
+}
+
+/* Donate Section */
+#donate-section {
+  width: 1280px;
+  margin: 0 auto;
+  margin-top: 80px;
+}
+#donate-section > h1 {
+  font-size: 40px;
+  font-weight: 700;
+  font-family: sans-serif;
+  color: #0e0e0e;
+  text-align: center;
+  margin-bottom: 32px;
+  margin-top: 16px;
+}
+#donate-section > p {
+  font-size: 16px;
+  font-weight: 400;
+  font-family: sans-serif;
+  color: #6a7972;
+  text-align: center;
+  margin-top: 24px;
+}
+.donate-cards {
+  display: flex;
+  gap: 24px;
+  justify-content: center;
+  align-items: center;
+  margin: 32px 0;
+}
+.donate-card {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 40px;
+  border-radius: 16px;
+  background: white;
+  border: 1px solid gray;
+}
+.donate-card > span {
+  font-size: 40px;
+  font-weight: 700;
+  font-family: sans-serif;
+  color: #3e3e3e;
+}
